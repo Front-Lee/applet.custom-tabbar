@@ -1,0 +1,3 @@
+<!--pages/news/news.wxml-->
+<view style='height:100vh;background:#EEAEEE;text-align:center;line-height:300rpx;color:#fff;'>消息页</view>
+<custom-tabbar activeIndex='1'></custom-tabbar>

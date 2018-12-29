@@ -1,0 +1,36 @@
+{
+   "pages": [
+      "pages/index/index",
+      "pages/add/add",
+      "pages/news/news",
+      "pages/shop/shop",
+      "pages/user/user"
+   ],
+   "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#000",
+      "navigationBarTitleText": "小程序自定义导航",
+      "navigationBarTextStyle": "white"
+   },
+   "usingComponents": {
+      "custom-tabbar": "components/custom-tabbar/custom-tabbar"
+   },
+   "tabBar": {
+      "backgroundColor": "#ffffff",
+      "borderStyle": "white",
+      "list": [
+         {
+            "pagePath": "pages/index/index"
+         },
+         {
+            "pagePath": "pages/news/news"
+         },
+         {
+            "pagePath": "pages/shop/shop"
+         },
+         {
+            "pagePath": "pages/user/user"
+         }
+      ]
+   }
+}

@@ -1,0 +1,3 @@
+<!--pages/shop/shop.wxml-->
+<view style='height:100vh;background:#00CED1;text-align:center;line-height:300rpx;color:#fff;'>购物车</view>
+<custom-tabbar activeIndex='3'></custom-tabbar>

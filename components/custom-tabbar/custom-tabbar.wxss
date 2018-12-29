@@ -1,0 +1,28 @@
+/* components/custom-tabbar/custom-tabbar.wxss */
+.tabbar-wrap{height:98rpx;background:#fff;width:100%;display:flex;position:fixed;bottom:0;box-shadow:0 -1rpx 10rpx rgba(0,0,0,.1)}
+.tabbar-item{flex:1;height:96rpx;position:relative;font-size:18rpx;font-family:PingFangSC-Medium;display:flex;flex-direction: column;align-items: center;}
+/* tabbar-image */
+.tabbar-item image{width:54rpx;height:54rpx;display:block;margin-top:12rpx;}
+.tabbar-middle{position:absolute;left:320rpx;width:110rpx;height:110rpx;top:-40%;background:#fff;border-radius:50%;box-shadow:0 2rpx 10rpx rgba(0,0,0,.2)}
+.middle-img{width:102rpx;height:102rpx;display:block;margin:6rpx auto 0 auto;}
+.tab-animated{
+   animation:pulse  2s infinite;  
+   -webkit-animation:pulse 2s  infinite;  
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+}
+@keyframes pulse {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+    50% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+}
+

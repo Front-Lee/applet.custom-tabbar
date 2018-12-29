@@ -1,0 +1,3 @@
+<!--pages/index/index.wxml-->
+<view style='height:100vh;background:#FF3E96;text-align:center;line-height:300rpx;color:#fff;'>首页</view>
+<custom-tabbar activeIndex='0'></custom-tabbar>

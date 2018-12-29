@@ -1,0 +1,3 @@
+<!--pages/user/user.wxml-->
+<view style='height:100vh;background:#AEEEEE;text-align:center;line-height:300rpx;color:#fff;'>个人中心</view>
+<custom-tabbar activeIndex='4'></custom-tabbar>
